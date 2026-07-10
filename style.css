@@ -1,0 +1,1171 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#071B2C;
+    color:#fff;
+    overflow-x:hidden;
+    line-height:1.6;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+section{
+    width:100%;
+    padding:100px 8%;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+header{
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1000;
+    padding:30px 8%;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:65px;
+}
+
+.logo h3{
+    font-size:16px;
+    color:#9FE8FF;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+    min-height:100vh;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:70px;
+}
+
+.hero-left h2{
+    color:#8DD9FF;
+    font-size:65px;
+    font-weight:700;
+    letter-spacing:4px;
+}
+
+.hero-left h1{
+    font-size:110px;
+    line-height:1;
+    color:#B9F0FF;
+    margin:10px 0 40px;
+}
+
+.hero-left p{
+    max-width:420px;
+    color:#d7edf7;
+    font-size:18px;
+    letter-spacing:1px;
+}
+
+.hero-right{
+    display:flex;
+    justify-content:center;
+}
+
+.hero-right img{
+    width:100%;
+    max-width:600px;
+    border-radius:40px;
+    object-fit:cover;
+    box-shadow:0 30px 70px rgba(0,0,0,.45);
+}
+
+/* ===========================
+   PROTECTION
+=========================== */
+
+.protection{
+    background:#0B243A;
+}
+
+.protection h2{
+    font-size:70px;
+    color:#A8EEFF;
+    margin-bottom:70px;
+    line-height:1.1;
+}
+
+.protect-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.protect-image img{
+    border-radius:60px;
+    height:520px;
+    object-fit:cover;
+}
+
+.protect-text p{
+    font-size:18px;
+    color:#D7EEF7;
+    margin-bottom:35px;
+}
+
+.protect-text li{
+    margin-bottom:18px;
+    padding-left:25px;
+    position:relative;
+    color:#fff;
+}
+
+.protect-text li::before{
+    content:"•";
+    position:absolute;
+    left:0;
+    color:#8DD9FF;
+    font-size:24px;
+}
+
+/* ===========================
+   BETTER SECTION
+=========================== */
+
+.better h2{
+    font-size:72px;
+    color:#B7F2FF;
+    line-height:1.1;
+    margin-bottom:60px;
+}
+
+.wide-image img{
+    width:100%;
+    border-radius:50px;
+    margin-bottom:70px;
+}
+
+.better-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.better-grid h3{
+    font-size:48px;
+    color:#A7EDFF;
+    margin-bottom:25px;
+}
+
+.better-grid p{
+    color:#E7F5FA;
+    font-size:18px;
+}
+
+.better-grid img{
+    border-radius:40px;
+}
+/*=========================================
+    OUR VALUES
+=========================================*/
+
+.values{
+    background:#0A2237;
+}
+
+.values h2{
+    font-size:70px;
+    color:#B5F1FF;
+    margin-bottom:70px;
+    text-align:center;
+}
+
+.value{
+    max-width:900px;
+    margin:0 auto 60px;
+    padding:40px;
+    border-radius:30px;
+    background:#102B44;
+    border:1px solid rgba(255,255,255,.08);
+    transition:.35s;
+}
+
+.value:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+}
+
+.value h3{
+    font-size:34px;
+    color:#9EEBFF;
+    margin-bottom:15px;
+}
+
+.value p{
+    font-size:18px;
+    color:#D7EEF7;
+}
+
+/*=========================================
+    GUARANTEE
+=========================================*/
+
+.guarantee{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:70px;
+}
+
+.guarantee h2{
+    font-size:70px;
+    color:#B7F2FF;
+    margin-bottom:30px;
+}
+
+.guarantee p{
+    font-size:20px;
+    color:#DCEFF8;
+    line-height:1.8;
+}
+
+.guarantee img{
+    border-radius:45px;
+    height:600px;
+    object-fit:cover;
+    box-shadow:0 30px 70px rgba(0,0,0,.35);
+}
+
+/*=========================================
+    CONTACT
+=========================================*/
+
+.contact{
+    background:#0B243A;
+}
+
+.contact h2{
+    font-size:65px;
+    color:#B8F0FF;
+    margin-bottom:50px;
+    text-align:center;
+}
+
+.contact form{
+    max-width:800px;
+    margin:auto;
+}
+
+.contact label{
+    display:block;
+    margin-bottom:10px;
+    color:#A5E9FF;
+    font-weight:600;
+}
+
+.contact input,
+.contact textarea{
+
+    width:100%;
+    padding:18px 20px;
+    margin-bottom:30px;
+
+    border:none;
+    outline:none;
+
+    background:#123550;
+
+    color:#fff;
+
+    border-radius:18px;
+
+    font-size:16px;
+}
+
+.contact textarea{
+    resize:none;
+}
+
+.contact button{
+
+    width:100%;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#74DFFF;
+
+    color:#07213A;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.contact button:hover{
+
+    background:#A5EEFF;
+
+    transform:translateY(-3px);
+}
+
+/*=========================================
+    FOOTER
+=========================================*/
+
+footer{
+
+    background:#04111D;
+
+    padding:70px 8%;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:40px;
+}
+
+.footer-logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+}
+
+.footer-logo img{
+
+    width:70px;
+}
+
+.footer-logo h3{
+
+    color:#9EEBFF;
+
+    letter-spacing:2px;
+}
+
+.social h3,
+.office h3{
+
+    margin-bottom:20px;
+
+    color:#9EEBFF;
+}
+
+.social a{
+
+    color:white;
+
+    margin-right:20px;
+
+    font-size:26px;
+
+    transition:.3s;
+}
+
+.social a:hover{
+
+    color:#74DFFF;
+}
+
+.office p{
+
+    color:#D8EEF7;
+
+    line-height:1.8;
+}
+
+/*=========================================
+    RESPONSIVE
+=========================================*/
+
+@media(max-width:992px){
+
+.hero,
+.protect-grid,
+.better-grid,
+.guarantee{
+
+grid-template-columns:1fr;
+
+}
+
+.hero-left{
+
+order:2;
+
+text-align:center;
+
+}
+
+.hero-left p{
+
+margin:auto;
+
+}
+
+.hero-right{
+
+order:1;
+
+}
+
+.hero-left h1{
+
+font-size:70px;
+
+}
+
+.hero-left h2{
+
+font-size:45px;
+
+}
+
+.protection h2,
+.better h2,
+.values h2,
+.guarantee h2,
+.contact h2{
+
+font-size:50px;
+
+}
+
+footer{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.footer-logo{
+
+justify-content:center;
+
+}
+
+}
+
+@media(max-width:576px){
+
+section{
+
+padding:70px 6%;
+
+}
+
+.hero-left h1{
+
+font-size:55px;
+
+}
+
+.hero-left h2{
+
+font-size:35px;
+
+}
+
+.protection h2,
+.better h2,
+.values h2,
+.guarantee h2,
+.contact h2{
+
+font-size:38px;
+
+}
+
+.value{
+
+padding:25px;
+
+}
+
+.value h3{
+
+font-size:28px;
+
+}
+
+.contact input,
+.contact textarea{
+
+padding:15px;
+
+}
+
+.contact button{
+
+font-size:18px;
+
+}
+
+}
+/*=========================================
+        PREMIUM IMAGE SHAPES
+=========================================*/
+
+.hero-right{
+    position:relative;
+}
+
+.hero-right img{
+    border-radius:60px 180px 60px 180px;
+    transition:.5s;
+}
+
+.hero-right img:hover{
+    transform:scale(1.02);
+}
+
+.protect-image img{
+    border-radius:180px 50px 180px 50px;
+    transition:.5s;
+}
+
+.protect-image img:hover{
+    transform:translateY(-8px);
+}
+
+.wide-image img{
+    border-radius:50px 180px 50px 180px;
+    transition:.5s;
+}
+
+.better-grid img{
+    border-radius:180px 50px;
+    transition:.5s;
+}
+
+.guarantee img{
+    border-radius:50px 180px;
+}
+
+/*=========================================
+            SECTION SPACING
+=========================================*/
+
+.hero{
+    padding-top:180px;
+    padding-bottom:140px;
+}
+
+.protection,
+.better,
+.values,
+.guarantee,
+.contact{
+
+    padding-top:140px;
+    padding-bottom:140px;
+
+}
+
+/*=========================================
+            TYPOGRAPHY
+=========================================*/
+
+h1,h2,h3{
+
+    font-weight:700;
+
+    letter-spacing:-1px;
+
+}
+
+.hero-left h1{
+
+    text-transform:uppercase;
+
+}
+
+.hero-left h2{
+
+    text-transform:uppercase;
+
+}
+
+.protection h2,
+.better h2,
+.values h2,
+.guarantee h2{
+
+    text-transform:uppercase;
+
+}
+
+/*=========================================
+            CUSTOM SCROLLBAR
+=========================================*/
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#071B2C;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#65D7FF;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#B0F0FF;
+
+}
+
+/*=========================================
+            GLOW EFFECT
+=========================================*/
+
+.hero-left h1,
+.protection h2,
+.better h2,
+.values h2,
+.guarantee h2{
+
+    text-shadow:
+
+    0 0 15px rgba(120,220,255,.2),
+
+    0 0 30px rgba(120,220,255,.15);
+
+}
+
+/*=========================================
+            HOVER CARD
+=========================================*/
+
+.value{
+
+    cursor:pointer;
+
+}
+
+.value:hover{
+
+    background:#163650;
+
+}
+
+/*=========================================
+            INPUT FOCUS
+=========================================*/
+
+.contact input:focus,
+.contact textarea:focus{
+
+    border:2px solid #6EDFFF;
+
+    background:#173C5B;
+
+}
+
+/*=========================================
+            BUTTON EFFECT
+=========================================*/
+
+.contact button{
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.contact button:hover{
+
+    box-shadow:
+
+    0 0 25px rgba(120,220,255,.45);
+
+}
+
+/*=========================================
+            SOCIAL ICONS
+=========================================*/
+
+.social a{
+
+    width:50px;
+
+    height:50px;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#123550;
+
+}
+
+.social a:hover{
+
+    transform:translateY(-5px) rotate(8deg);
+
+}
+
+/*=========================================
+            FOOTER
+=========================================*/
+
+footer{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+/*=========================================
+        FINAL POLISH
+=========================================*/
+
+/* Smooth transitions */
+
+*{
+    transition:
+    background .3s ease,
+    color .3s ease,
+    transform .3s ease,
+    box-shadow .3s ease;
+}
+
+/* Better paragraph spacing */
+
+p{
+    line-height:1.9;
+}
+
+/* Container width */
+
+.hero,
+.protection,
+.better,
+.values,
+.guarantee,
+.contact,
+footer{
+
+    max-width:1600px;
+
+    margin:auto;
+
+}
+
+/* Better image quality */
+
+img{
+
+    image-rendering:auto;
+
+    object-fit:cover;
+
+}
+
+/* Section titles */
+
+section h2{
+
+    font-weight:800;
+
+}
+
+/* Decorative underline */
+
+section h2::after{
+
+    content:"";
+
+    display:block;
+
+    width:90px;
+
+    height:5px;
+
+    margin-top:20px;
+
+    background:#6CDFFF;
+
+    border-radius:20px;
+
+}
+
+/* Contact placeholder */
+
+input::placeholder,
+textarea::placeholder{
+
+    color:#bddae7;
+
+}
+
+/* Remove textarea resize */
+
+textarea{
+
+    resize:none;
+
+}
+
+/* Button Active */
+
+.contact button:active{
+
+    transform:scale(.98);
+
+}
+
+/* Footer links */
+
+footer a{
+
+    color:white;
+
+}
+
+footer a:hover{
+
+    color:#74DFFF;
+
+}
+
+/* Selection Color */
+
+::selection{
+
+    background:#75E2FF;
+
+    color:#051421;
+
+}
+
+/* Small shadow */
+
+.hero img,
+.protect-image img,
+.better-grid img,
+.wide-image img,
+.guarantee img{
+
+    box-shadow:
+    0 25px 60px rgba(0,0,0,.45);
+
+}
+
+/* Rounded inputs */
+
+.contact input,
+.contact textarea{
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+/* Better list spacing */
+
+.protect-text li{
+
+    line-height:1.8;
+
+}
+
+/* Hero text spacing */
+
+.hero-left p{
+
+    margin-top:25px;
+
+}
+
+/* Footer spacing */
+
+.office p{
+
+    margin-top:10px;
+
+}
+
+/* Prevent images overflowing */
+
+img{
+
+    max-width:100%;
+
+}
+
+/* Better mobile */
+
+@media(max-width:768px){
+
+.hero{
+
+text-align:center;
+
+}
+
+.hero-right{
+
+margin-bottom:50px;
+
+}
+
+.logo{
+
+justify-content:center;
+
+}
+
+.hero-left p{
+
+max-width:100%;
+
+}
+
+.protect-image img,
+.better-grid img,
+.wide-image img,
+.guarantee img{
+
+height:auto;
+
+}
+
+footer{
+
+padding:60px 30px;
+
+}
+
+}
+
+/* Very Small Devices */
+
+@media(max-width:480px){
+
+.hero-left h1{
+
+font-size:42px;
+
+}
+
+.hero-left h2{
+
+font-size:28px;
+
+}
+
+section{
+
+padding:60px 20px;
+
+}
+
+.contact button{
+
+padding:15px;
+
+}
+
+.logo img{
+
+width:55px;
+
+}
+
+.logo h3{
+
+font-size:13px;
+
+}
+
+}
+
+/* Large Desktop */
+
+@media(min-width:1600px){
+
+.hero-left h1{
+
+font-size:135px;
+
+}
+
+.hero-left h2{
+
+font-size:75px;
+
+}
+
+.protection h2,
+.better h2,
+.values h2,
+.guarantee h2{
+
+font-size:85px;
+
+}
+
+}
+
+/* Smooth fade */
+
+body{
+
+animation:fadeIn .8s ease;
+
+}
+
+@keyframes fadeIn{
+
+from{
+
+opacity:0;
+
+}
+
+to{
+
+opacity:1;
+
+}
+
+}
+/* Animation */
+
+.hidden{
+
+    opacity:0;
+
+    transform:translateY(70px);
+
+    transition:1s;
+
+}
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* Sticky Header */
+
+header.sticky{
+
+    position:fixed;
+
+    background:rgba(5,22,35,.92);
+
+    backdrop-filter:blur(10px);
+
+    transition:.4s;
+
+}
+
+/* Ripple Effect */
+
+.contact button{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.ripple{
+
+    position:absolute;
+
+    width:20px;
+
+    height:20px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.5);
+
+    transform:scale(0);
+
+    animation:ripple .6s linear;
+
+}
+
+@keyframes ripple{
+
+    to{
+
+        transform:scale(18);
+
+        opacity:0;
+
+    }
+
+}
